@@ -72,6 +72,7 @@ export default function RouteName() {
       .request(options)
       .then(function (response) {
         console.log(response.data);
+        setShowStatus(true);
         setOtpStatus(response.data.status);
       })
       .catch(function (error) {
@@ -247,7 +248,6 @@ export default function RouteName() {
                   color="secondary"
                   onClick={() => {
                     verifyOTP();
-                    setShowStatus(true);
                   }}
                   disabled={otpStatus === "APPROVED"}
                   className="text-purple-800 hover:text-white md:w-auto w-full mt-4"
