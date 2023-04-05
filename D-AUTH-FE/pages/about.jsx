@@ -6,7 +6,7 @@ export default function RouteName() {
     <div className="bg-white text-blue-500 min-h-screen ">
       <Header />
       <div>
-        <h5>Hi I am Chiranjeev Mishra, an aspiring Blockchain Developer</h5>
+        <h5>This Project was developed for GeeksforGeeks Hackathon by Chiranjeeev,Pranshu,Raghav</h5>
 
         <p>
           This project aims for creating a web-3 App which authenticates your
